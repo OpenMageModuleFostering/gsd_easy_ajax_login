@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/GSD_Easy_Ajax_Login",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Easy way to login without page reload. ",
+    "authors": [
+    {
+        "name": "GS Dhunna",
+        "email": "gurjit035@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

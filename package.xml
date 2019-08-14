@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+    <name>GSD_Easy_Ajax_Login</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Easy way to login without page reload. </summary>
+    <description>Easy way to login without page reload. You can also choose forgot password option within the login form pop up. It is very fast and easy to understand.&#xD;
+&#xD;
+Benefits&#xD;
+&#xD;
+    Reduce load time&#xD;
+    Password recovery support&#xD;
+    Customer stays on the same page after login&#xD;
+</description>
+    <notes>Easy way to login without page reload. You can also choose forgot password option within the login form pop up. It is very fast and easy to understand.&#xD;
+</notes>
+    <authors><author><name>GS Dhunna</name><user>gsdhunna</user><email>gurjit035@gmail.com</email></author></authors>
+    <date>2014-03-21</date>
+    <time>06:43:52</time>
+    <contents><target name="mageskin"><dir name="."><dir name="skin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="ajaxlogin.css" hash=""/></dir><dir name="images"><file name="icon-close.png" hash=""/><file name="loader.gif" hash=""/></dir></dir></dir></dir></dir></dir></target><target name="magedesign"><dir name="."><dir name="app"><dir name="design"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="ajaxlogin"><file name="login.phtml" hash=""/></dir></dir><dir name="layout"><file name="ajaxlogin.xml" hash=""/></dir></dir></dir></dir></dir></dir></dir></target><target name="magelocal"><dir name="."><dir name="app"><dir name="code"><dir name="local"><dir name="GSD"><dir name="AjaxLogin"><dir name="Block"><file name="Login.php" hash=""/></dir><dir name="controllers"><file name="IndexController.php" hash=""/></dir><dir name="etc"><file name="adminhtml.xml" hash=""/><file name="config.xml" hash=""/><file name="system.xml" hash=""/></dir><dir name="Helper"><file name="Data.php" hash=""/></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>5.3.17</max></php><package><name>GSD_Easy_Ajax_Login</name><channel>local</channel><min>1.0</min><max>2.0</max></package><extension><name>Core</name><min>1.0</min><max>3.0</max></extension></required></dependencies>
+</package>
